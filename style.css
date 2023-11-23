@@ -151,7 +151,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -197,6 +197,19 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+}
+
+.section__text__p3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+.section__descr {
+  text-align: center;
+}
+
+.section__experience {
+  padding-top: 0;
+  height: auto;
 }
 
 #socials-container {
@@ -271,6 +284,23 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+
+.details-about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.product-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 15% 15% 15% 15% 15%;
 }
 
 .about-details-container {
@@ -367,8 +397,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 75%;
 }
 
 .project-title {
