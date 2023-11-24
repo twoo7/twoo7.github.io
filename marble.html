@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+
+    <div class="logo" onclick="location.href='/#experience'">
+      <img src="./assets/logo.svg" alt="logo img" />
+      Timothy Woo
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li></li>
+        <li><a href="/#experience">Back to Home</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo" onclick="location.href='/#experience'">
+      <img src="./assets/logo.svg" alt="logo img" />
+      Timothy Woo
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li></li>
+        <li><a href="/#experience">Back to Home</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section__experience">
+    <h1 class="title">What is Marble?</h1>
+    <div class="section-container">
+      <div class="section__icon-container">
+        <img src="./assets/marble.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="text-container">
+          <p>
+            Marble is a web and mobile SaaS project made for landlords wanting a more simplified rental management
+            experience. Focused on automating many of the processes many older project management companies continue to
+            do manually, a lot of the property life-cycle has been done programatically to reduce the overhead needed to
+            find a tenant or keep a property maintained.
+          </p>
+          <br />
+          <p>
+            As a software engineer part of the engineering team, my focus was on improving user experience and reducing
+            manual workload from operations, designed and implemented multiple features to alleviate any friction and
+            obstacles between the customer and product.
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="section__experience">
+    <p class="section__text__p1">What I worked on</p>
+    <h1 class="title">Projects</h1>
+    <div class="contact-info-container">
+      <button class="btn btn-color-1" onclick="window.open('https://www.rentmarble.com')">
+        View Product
+      </button>
+    </div>
+    <div class="section-container">
+      <div class="text-container">
+        <p class="section__text__p4">
+          Improved Onboarding Process for new landlords:
+        </p>
+        <p class="section__text__p5">
+          - Guiding new users through the neccessary steps required to properly use the product.
+        </p>
+        <p class="section__text__p5">
+          - Adding their first property and beginning their first workflow to experience and learn how the product functions.
+        </p>
+        <p class="section__text__p5">
+          - Reduced questions and misunderstandings from new users and increased property creation by 20%.
+        </p>
+        <br/>
+        <p class="section__text__p4">
+          Lease Creation and Signing Flow for newly accepted applications
+        </p>
+        <p class="section__text__p5">
+          - A major contributor from designing the spec and implementation of the feature/flow.
+        </p>
+        <p class="section__text__p5">
+          - Utlized Slate.js, an open source rich text editor, to generate a lease for landlords based on the information provided
+          for the property and applicant, allowing conditional statements and other phrases to be displayed or hidden.
+        </p>
+        <p class="section__text__p5">
+          - Integrated Docusign API and Webhook services to automatically create and monitor the signing process for both the landlord and tenants.
+        </p>
+        <p class="section__text__p5">
+          - Removed the requirement for manual operations from the Marble team and reduced the leasing and tenant onboarding process time by 3-5 days.
+        </p>
+        <br/>
+        <p class="section__text__p4">
+          Pivotal Product Changes to automate the property rental lifecycle,
+        </p>
+        <p class="section__text__p5">
+          - Revamped the product from a toolbox made for properties property to a guided and seamless experience for landlords taking them through the property rental life cycle, all from leasing to maintenance.
+        </p>
+        <p class="section__text__p5">
+          - A major contributor from designing the spec and implementation of the feature/flow.
+        </p>
+        <p class="section__text__p5">
+          - Utlized Temporal.js to enable frequent checks and operations for each specific proccess the user is in.
+        </p>
+        <br/>
+        <p class="section__text__p4">
+          Shippo Integration for Smart Lock Orders
+        </p>
+        <p class="section__text__p5">
+          - Integrated Shippo to allow shippment creation and instant ordering to distributors.
+        </p>
+        <p class="section__text__p5">
+          - Shipping labels automatically created and sent to distrinbutors to allow faster shipment and delivery times.
+        </p>
+        <p class="section__text__p5">
+          - Implemented shipment tracking and management for landlords, allowing them to keep track of the shipment as well as cancel locks if needed.
+        </p>
+        <br/>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright &#169; 2023 Timothy Woo. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

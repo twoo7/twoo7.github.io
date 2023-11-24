@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  min-height: 96vh;
   margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -158,6 +158,10 @@ section {
 
 .section-container {
   display: flex;
+}
+
+.text-container {
+  padding-bottom: 4vh;
 }
 
 /* PROFILE SECTION */
@@ -173,6 +177,13 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
+  margin: auto 0;
+}
+
+.section__icon-container {
+  display: flex;
+  height: 200px;
+  width: 200px;
   margin: auto 0;
 }
 
@@ -194,15 +205,28 @@ section {
   margin-bottom: 1rem;
 }
 
+.section__text__p3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.section__text__p4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.section__text__p4 {
+  /* font-size: 1rem; */
+  margin-bottom: 1rem;
+  margin-inline-start: -2rem;
+
+}
+
 .title {
   font-size: 3rem;
   text-align: center;
 }
 
-.section__text__p3 {
-  font-size: 1.75rem;
-  text-align: center;
-}
 .section__descr {
   text-align: center;
 }
@@ -290,8 +314,9 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  column-gap: 2rem;
   display: grid;
-  grid-template-columns: 50% 50%;
+  /* grid-template-columns: 50% 50%; */
 }
 
 .product-containers {
@@ -367,7 +392,7 @@ section {
   align-items: center;
   padding-top: 4vh;
   padding-bottom: 4vh;
-  height: 80%;
+  height: 76vh;
   margin: 0 5rem;
   /* box-sizing: border-box; */
   /* min-height: fit-content; */
